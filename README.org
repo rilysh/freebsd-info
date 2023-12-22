@@ -1,0 +1,16 @@
+#+title:    freebsd-info
+#+author:   rilysh
+#+email:    nightquick AT proton DOT me
+#+language: en
+#+options:  toc:nil
+
+** freebsd-info
+An utility to retrieve information about current FreeBSD installation.
+
+** Why?
+Currently, we've got freebsd-version which gives some relevant information
+but that's not enough for me and running sysctl for each entry... is just
+not convenient. Shell scripts don't have long opts support, and using only
+bare getopt can create possible collisions.
+
+Now you know why. :)
